@@ -1,6 +1,8 @@
 # My dot files
 Let me show you them
 
+![Screenshot of iTerm](readme-assets/screenshot.png)
+
 ## Set up
 1. Clone
 2. `mv ~/.bash_profile ~/.bash_profile_BAK`
