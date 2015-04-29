@@ -1,3 +1,4 @@
-alias git-s='git status -sb'
-alias git-d='git diff --color-words -w'
-alias git-dc='git diff --cached --color-words -w'
+alias gs='git status -sb'
+alias gd='git diff --color-words -w'
+alias gdc='git diff --cached --color-words -w'
+alias ll='ls -halp'
