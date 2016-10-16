@@ -10,3 +10,13 @@ Let me show you them
 4. `ln /path/to/dotfiles/.bash_profile ~/.bash_profile`
 5. `ln /path/to/dotfiles/.bashrc ~/.bashrc`
 6. restart terminal/iterm or: `source ~/.bash_profile`
+
+## Atom Settings
+
+### Export packages
+
+apm list --installed --bare > package-list
+
+### Import packages
+
+apm install --packages-file package-list
