@@ -1,0 +1,44 @@
+"*":
+  core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".flowconfig"
+        ".hgrc"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "linter"
+      "tree-view"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "tomorrow-night-eighties-syntax"
+    ]
+  editor:
+    autoIndentOnPaste: false
+    fontFamily: "Fira Code"
+    fontSize: 12
+    showInvisibles: true
+  "exception-reporting":
+    userId: "b1347f8c-46e8-0ac7-1f04-6eaf71bad85f"
+  "find-and-replace":
+    liveSearchMinimumCharacters: 1
+    scrollToResultOnLiveSearch: true
+  nuclide:
+    installRecommendedPackages: true
+    "nuclide-distraction-free-mode": {}
+    "nuclide-home":
+      showHome: false
+  "tool-bar":
+    visible: false
+  welcome:
+    showOnStartup: false
